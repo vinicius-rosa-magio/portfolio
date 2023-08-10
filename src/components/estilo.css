@@ -1,0 +1,29 @@
+
+header{
+    background-color: #121212; 
+    
+}
+
+header a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;   
+}
+header a+a {
+    margin-left: 16px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 80px;
+    margin: 20px;
+    margin-left: 50px;
+}
+.menu{
+    margin-right: 30px;
+}

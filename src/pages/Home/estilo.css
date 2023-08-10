@@ -1,0 +1,36 @@
+.sobre {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.titulo {
+    margin-top: 55px;
+    margin-left: 50px;
+}
+
+.paragrafo {
+    width: 50%;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 2.0;
+    margin-left: 50px;
+    
+}
+
+.link {
+    text-decoration: none;
+    color: #167AE5
+    
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+}
+
+.imagem {
+    max-width: 30%;
+    margin-left: 50px;
+    border-radius: 16px;
+}
