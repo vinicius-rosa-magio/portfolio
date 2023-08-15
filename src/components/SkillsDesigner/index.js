@@ -8,8 +8,8 @@ const SkillDesigner = () => {
 
             <ul className="imagens-designer">
                 <li className="designer-item">
-                    <img src={require('../../assets/HardSkill/xd.png' )}alt="imagem do addobe xd" />
-                    <img src={require('../../assets/HardSkill/figma.png')} alt="imagem do figma" />
+                    <img src={require("../../assets/HardSkill/xd.png" )}alt="imagem do addobe xd" />
+                    <img src={require("../../assets/HardSkill/figma.png")} alt="imagem do figma" />
                   
                 </li>
             </ul>

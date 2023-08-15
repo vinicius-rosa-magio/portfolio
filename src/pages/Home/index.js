@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import HardSkill from "../HardSkills";
-import SkillDesigner from "../SkillsDesigner";
+import HardSkill from "../../components/HardSkills";
+import SkillDesigner from "../../components/SkillsDesigner";
+import Projetos from "../../components/Projetos";
 import './estilo.css';
 
 
@@ -24,6 +25,7 @@ function Home() {
 
             <HardSkill />
             <SkillDesigner />
+            <Projetos/>
         </div>
 
 
