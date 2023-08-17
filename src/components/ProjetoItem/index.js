@@ -14,6 +14,8 @@ function Projeto({ imgSrc, nome, resumo, links }) {
         }
     }
 
+  
+
     return (
         <div className="projeto-item">
             <img src={imgSrc} alt={`logo ${nome}`} className="img" />
@@ -29,7 +31,7 @@ function Projeto({ imgSrc, nome, resumo, links }) {
                                 <div className="opcoes-content">
                                     <h3>Ir para:</h3>
                                     {links.map((link, index) => (
-                                        <a key={index} href={link.url}>{link.label}</a>
+                                        <a   key={index} href={link.url}>{link.label}</a>
                                     ))}
                                 </div>
                                 <button onClick={alternarCaixa} className="btn-fechar">Fechar</button>

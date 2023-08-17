@@ -9,7 +9,7 @@ function Projetos() {
             imgSrc: require("../../assets/Projetos/hey.png"),
             resumo: "Em resumo, um aplicativo de bate-papo em grupo...",
             links: [
-                { label: "GitHub", url: "https://github.com/seu-usuario/heygrupo" },
+                { label: "GitHub",url: "https://github.com/vinicius-rosa-magio/Heygrupos"  },
             ],
         },
         {
@@ -22,66 +22,62 @@ function Projetos() {
             ],
         },
         {
-            nome: "Alura Mais",
-            imgSrc: require("../../assets/Projetos/alura.png"),
+            nome: "Finanças",
+            imgSrc: require("../../assets/Projetos/f.png"),
             resumo: "Em resumo, um aplicativo de bate-papo em grupo...",
             links: [
-                { label: "GitHub", url: "https://github.com/vinicius-rosa-magio/aluraplus" },
-                { label: "Vercel", url: "https://aluraplus-psi.vercel.app/" },
+                { label: "GitHub",  url: "https://github.com/vinicius-rosa-magio/Financias1" }
             ],
         },
         {
-            nome: "Alura Mais",
-            imgSrc: require("../../assets/Projetos/alura.png"),
+            nome: "AppDevPost",
+            imgSrc: require("../../assets/Projetos/dev.png"),
             resumo: "Em resumo, um aplicativo de bate-papo em grupo...",
             links: [
-                { label: "GitHub", url: "https://github.com/vinicius-rosa-magio/aluraplus" },
-                { label: "Vercel", url: "https://aluraplus-psi.vercel.app/" },
+                { label: "GitHub", url: "https://github.com/vinicius-rosa-magio/appDevPost" },
             ],
         },
         {
-            nome: "Alura Mais",
-            imgSrc: require("../../assets/Projetos/alura.png"),
+            nome: "Lista tarefas",
+            imgSrc: require("../../assets/Projetos/lista.png"),
             resumo: "Em resumo, um aplicativo de bate-papo em grupo...",
             links: [
-                { label: "GitHub", url: "https://github.com/vinicius-rosa-magio/aluraplus" },
-                { label: "Vercel", url: "https://aluraplus-psi.vercel.app/" },
+                { label: "GitHub", url: "https://github.com/vinicius-rosa-magio/listatarefas-reactjs" },
             ],
         },
         {
-            nome: "Alura Mais",
-            imgSrc: require("../../assets/Projetos/alura.png"),
+            nome: "Biscoito da sorte",
+            imgSrc: require("../../assets/Projetos/biscoito.png"),
             resumo: "Em resumo, um aplicativo de bate-papo em grupo...",
             links: [
-                { label: "GitHub", url: "https://github.com/vinicius-rosa-magio/aluraplus" },
-                { label: "Vercel", url: "https://aluraplus-psi.vercel.app/" },
+                { label: "GitHub", url: "https://github.com/vinicius-rosa-magio/biscoitodasorte" },
+                { label: "Vercel", url: "https://biscoitodasorte-one.vercel.app/" },
             ],
         },
         {
-            nome: "Alura Mais",
-            imgSrc: require("../../assets/Projetos/alura.png"),
+            nome: "Cronometro",
+            imgSrc: require("../../assets/Projetos/cronometro.png"),
             resumo: "Em resumo, um aplicativo de bate-papo em grupo...",
             links: [
-                { label: "GitHub", url: "https://github.com/vinicius-rosa-magio/aluraplus" },
-                { label: "Vercel", url: "https://aluraplus-psi.vercel.app/" },
+                { label: "GitHub", url: "https://github.com/vinicius-rosa-magio/cronometro" },
+                { label: "Vercel", url: "https://cronometro-rouge-ten.vercel.app/" },
             ],
         },
         {
-            nome: "Alura Mais",
-            imgSrc: require("../../assets/Projetos/alura.png"),
+            nome: "Busca cep",
+            imgSrc: require("../../assets/Projetos/cep.jpg"),
             resumo: "Em resumo, um aplicativo de bate-papo em grupo...",
             links: [
-                { label: "GitHub", url: "https://github.com/vinicius-rosa-magio/aluraplus" },
-                { label: "Vercel", url: "https://aluraplus-psi.vercel.app/" },
+                { label: "GitHub", url: "https://github.com/vinicius-rosa-magio/Busca-Cep" },
             ],
         },
         {
-            nome: "Alura Mais",
-            imgSrc: require("../../assets/Projetos/alura.png"),
+            nome: "Projeto organo",
+            imgSrc: require("../../assets/Projetos/banner.png"),
             resumo: "Em resumo, um aplicativo de bate-papo em grupo...",
             links: [
-                { label: "GitHub", url: "https://github.com/vinicius-rosa-magio/aluraplus" },
-                { label: "Vercel", url: "https://aluraplus-psi.vercel.app/" },
+                { label: "GitHub", url: "https://github.com/vinicius-rosa-magio/projeto-Organo"  },
+                { label: "Vercel", url: "https://projeto-organo.vercel.app/" },
             ],
         },
         

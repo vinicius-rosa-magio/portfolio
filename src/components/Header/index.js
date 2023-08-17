@@ -1,11 +1,13 @@
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./estilo.css";
 
-function Header(){
+function Header() {
     return (
         <header className="container">
-            <img src={ require('../../assets/Logo/logoc.png') } alt="logo do site" className="logo" /> 
+            <img src={require('../../assets/Logo/logoc.png')} alt="logo do site" className="logo" />
+            <h3>"Site em desenvolvimento"</h3>
             <div className="menu">
+
                 <Link to="/"> Home </Link>
                 <Link to="/sobre"> Sobre </Link>
                 <Link to="/contato"> Contato </Link>
