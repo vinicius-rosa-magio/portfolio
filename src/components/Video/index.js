@@ -6,7 +6,7 @@ const VideoPlayer = () => {
         <div className="video-container">
             <h1>Video Sobre mim</h1>
             <ReactPlayer className="react-player"
-                url={process.env.PUBLIC_URL + "/meuvideo.mkv"}
+                url={process.env.PUBLIC_URL + "/meuVideo.mp4"}
                 controls={true}
                 width="80%"
                 height="80%"
