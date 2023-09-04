@@ -1,0 +1,13 @@
+
+.video-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.react-player{
+    margin-top: 26px;
+    border: 1px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}

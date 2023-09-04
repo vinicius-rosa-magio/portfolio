@@ -30,5 +30,7 @@
 .imagem {
     max-width: 30%;
     margin-left: 50px;
-    border-radius: 16px;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #ccc;
 }

@@ -1,8 +1,13 @@
+import VideoPlayer from "../../components/Video";
+import FotoGaleria from "../../components/FotoGaleria";
+import "./sobre.css";
 
-function Sobre(){
-    return(
+function Sobre() {
+    return (
         <div>
-            <h2>Sobre</h2>
+            <VideoPlayer />
+            <FotoGaleria />
+
         </div>
     )
 }
