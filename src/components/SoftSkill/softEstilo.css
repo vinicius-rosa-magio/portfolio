@@ -1,33 +1,33 @@
-.hard {
+
+
+.soft {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
     text-align: center;
 }
 
-.coluna {
+.coluna-soft {
     flex: 1;
     padding: 20px;
     margin: 10px;
-    margin-top: 16px;
     border-radius: 5px;
-    height: 200px;/* Defina a altura desejada para as colunas */
+    text-align: center;
     border: 1px solid #ccc;
     margin-left: 30px;
     margin-right: 30px;
 }
 
-.lista {
+.lista-soft {
     list-style: none;
     padding: 0;
-    color: #fff;
     font-size: 20px;
 }
 
-.lista li {
+.lista-soft li {
+    margin-bottom: 5px;
     font-weight: bold;
-    height: 30px;/* Defina a altura desejada para os itens */
-    line-height: 40px;  /* Centralize verticalmente o texto */
 }
 
 .tituloHard {

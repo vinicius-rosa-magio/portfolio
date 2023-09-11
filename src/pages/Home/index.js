@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import HardSkill from "../../components/HardSkills";
-import SkillDesigner from "../../components/SkillsDesigner";
+import SoftSkill from "../../components/SoftSkill";
 import Projetos from "../../components/Projetos";
 import './estilo.css';
 
@@ -15,7 +15,7 @@ function Home() {
                     "Olá, meu nome é Vinicius Rosa Mágio e sou um desenvolvedor web e mobile apaixonado por tecnologia e inovação.
                     Após me formar em Arquitetura e Urbanismo, percebi que minha verdadeira paixão estava na área de desenvolvimento e decidi fazer uma transição de carreira.
                     Com habilidades técnicas sólidas em HTML5, CSS3, JavaScript, React Native, jQuery e Bootstrap, sou capaz de atender às demandas do mercado de desenvolvimento web e mobile.
-                    Além disso, estou sempre aprimorando minhas habilidades e atualmente estou estudando REACT e UI DESIGN para oferecer soluções mais completas e inovadoras para projetos desafiadores.Sou uma pessoa motivada e comprometida com meu trabalho.
+                    Além disso, estou sempre aprimorando minhas habilidades e atualmente estou estudando REACT para oferecer soluções mais completas e inovadoras para projetos desafiadores.Sou uma pessoa motivada e comprometida com meu trabalho.
                     Sempre em busca de aprendizado e crescimento, adoro trabalhar em equipe para alcançar os objetivos do projeto. Estou pronto para enfrentar novos desafios e me adaptar a diferentes ambientes de trabalho.
                     Se você está procurando um desenvolvedor web e mobile comprometido e apaixonado por tecnologia e inovação, entre em contato comigo para conversarmos sobre como posso ajudar sua empresa a atingir seus objetivos."
                     <Link to="/sobre" className="link"> Veja mais...</Link>
@@ -24,7 +24,7 @@ function Home() {
             </div>
 
             <HardSkill />
-            <SkillDesigner />
+            <SoftSkill/>
             <Projetos/>
         </div>
 

@@ -4,19 +4,41 @@ import './estilo.css';
 const HardSkill = () => {
     return (
         <div className="hard">
-            <h1 className="tituloHard">Hard skills programação</h1>
+            <h1 className="tituloHard">Hard Skills </h1>
 
-            <ul className="imagens-lista">
-                <li className="imagens-item">
-                    <img src={require('../../assets/HardSkill/Jquery.png')} alt="logo Jquery" />
-                    <img src={require('../../assets/HardSkill/Html.png')} alt="logo html" />
-                    <img src={require('../../assets/HardSkill/css.png')} alt="logo css" />
-                    <img src={require('../../assets/HardSkill/JS.png')} alt="logo javaScript" />
-                    <img src={require('../../assets/HardSkill/ReactNative.png')} alt="logo React Native" />
-                    <img src={require('../../assets/HardSkill/Boss.png')} alt="logo Bootstrap" />
-                    <img src={require('../../assets/HardSkill/React.png')} alt="logo ReactJS" />
-                </li>
-            </ul>
+            <div className="coluna">
+                <h2>Frontend:</h2>
+                <ul className="lista">
+                    <li>CSS</li>
+                    <li>HTML</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+
+            <div className="coluna">
+                <h2>Framework:</h2>
+                <ul className="lista">
+                    <li>jQuery</li>
+                    <li>ReactJS</li>
+                    <li>Bootstrap</li>
+                    <li>React Native</li>
+                </ul>
+            </div>
+
+            <div className="coluna">
+                <h2>Controle de versão:</h2>
+                <ul className="lista">
+                    <li>Git</li>
+                </ul>
+            </div>
+
+            <div className="coluna">
+                <h2>Designer:</h2>
+                <ul className="lista">
+                    <li>Figma</li>
+                    <li>Adobe Xd</li>
+                </ul>
+            </div>
         </div>
     )
 }

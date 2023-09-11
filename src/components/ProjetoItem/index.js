@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./estilo.css";
 
-function Projeto({ imgSrc, nome, resumo, links }) {
+function Projeto({ imgSrc, nome, resumo, links, Competência }) {
     const [mostrarCaixa, setMostrarCaixa] = useState(false);
 
     const alternarCaixa = () => {
