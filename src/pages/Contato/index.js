@@ -1,7 +1,13 @@
-function Contato(){
-    return(
-        <div>
-            <h2>contato</h2>
+import "./contato.css";
+
+function Contato() {
+    return (
+        <div className="contato-estilo">
+            <div className="p-estilo">
+                <p>E-mail: viniciusrosamagio@gmail.com / vrosamagio@gmail.com</p>
+                <p>Whatsapp: 24 99819-6722</p>
+            </div>
+
         </div>
     )
 }

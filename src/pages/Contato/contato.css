@@ -1,0 +1,12 @@
+
+.contato-estilo{
+    color: #fff;
+    margin-top: 400PX; 
+}
+.p-estilo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-size: 20px;
+}
