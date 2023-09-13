@@ -5,8 +5,9 @@ const VideoPlayer = () => {
     return (
         <div className="video-container">
             <h1>Video Sobre mim</h1>
-            <ReactPlayer className="react-player"
-                url={process.env.PUBLIC_URL + "/https://youtu.be/VijZd15kqX0"}
+            <ReactPlayer
+                className="react-player"
+                url="https://youtu.be/VijZd15kqX0"
                 controls={true}
                 width="80%"
                 height="80%"
@@ -15,6 +16,5 @@ const VideoPlayer = () => {
         </div>
     )
 }
-
 
 export default VideoPlayer;

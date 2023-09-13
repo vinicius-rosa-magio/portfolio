@@ -8,9 +8,9 @@ function Header() {
             <h3>"Site em desenvolvimento"</h3>
             <div className="menu">
 
-                <Link to="/"> Home </Link>
-                <Link to="/sobre"> Sobre </Link>
-                <Link to="/contato"> Contato </Link>
+                <Link  to="/"> Home </Link>
+                <Link  to="/sobre"> Sobre </Link>
+                <Link  to="/contato"> Contato </Link>
             </div>
         </header>
     )

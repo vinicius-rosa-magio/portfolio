@@ -12,7 +12,13 @@ header a{
     color: #fff;
     font-size: 20px;
     text-decoration: none;   
+    transition: 0.3s;
 }
+
+header a:hover{
+    color: #FABF3C;
+}
+
 header a+a {
     margin-left: 16px;
 }
@@ -31,3 +37,5 @@ header a+a {
 .menu{
     margin-right: 30px;
 }
+
+

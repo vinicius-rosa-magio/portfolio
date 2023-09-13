@@ -21,8 +21,15 @@
 
 .link {
     text-decoration: none;
-    color: #167AE5
+    color: #167AE5;
+    transition:transform 0.7s;
 }
+
+.link:hover{
+    color:#FABF3C;
+}
+
+
 
 .conteudo {
     display: flex;
@@ -36,3 +43,4 @@
     border-radius: 10px;
     box-shadow: 1px 1px 5px #ccc;
 }
+

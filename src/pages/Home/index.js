@@ -26,7 +26,6 @@ function Home() {
 
             <HardSkill />
             <SoftSkill/>
-          
             <Projetos/>
         </div>
 
