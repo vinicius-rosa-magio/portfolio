@@ -1,14 +1,25 @@
-p {
-    margin-top: 16px;
-}
 
 .cont-projeto {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
     color: black;
-    margin: 30px 16px;
-
+    margin: 30px 16px;  
+    margin-bottom: 50px;
 }
 
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+}
+
+.destaque{
+    color: #FABF3C;
+    
+}
+
+.projeto{
+    color: #91CCFF;
+}
 

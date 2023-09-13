@@ -16,7 +16,7 @@ const SoftSkill = () => {
 
     return (
         <div className="soft">
-            <h1 className="tituloHard">Soft Skills</h1>
+            <h1 className="tituloSoft">Soft Skills</h1>
 
             <div className="coluna-soft">
                 <ul className="lista-soft">

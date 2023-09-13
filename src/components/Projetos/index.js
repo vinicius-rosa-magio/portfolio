@@ -1,8 +1,29 @@
 import React from "react";
 import ProjetoItem from "../ProjetoItem/index";
+
 import "./estilo.css";
 
-function Projetos() {
+function Projetos() {  
+    const projetosDestaques =[
+
+        {
+            nome: "PrimeFlix",
+            imgSrc: require("../../assets/Projetos/flix.png"),
+            resumo:
+                <p>
+                    Em resumo, esta aplicação React permite aos usuários visualizar uma lista de filmes em 
+                    exibição na página inicial e obter detalhes específicos de cada filme na página de detalhes.
+                    Os usuários podem salvar filmes em sua lista pessoal e acessar trailers no YouTube. {" "}
+                    <strong>Competência:</strong> ReactJs
+                </p>,
+            links:
+                [
+                    { label: "GitHub", url: "https://github.com/vinicius-rosa-magio/Filmes" },
+                    { label: "Vercel", url: "https://filmes-five.vercel.app/",}
+                ],
+        },
+        
+    ]
     const projetos = [
         {
             nome: "HeyGrupo",
@@ -169,9 +190,16 @@ function Projetos() {
         // Adicione mais projetos aqui
     ];
 
+
     return (
         <div>
-            <h1 className="titulo">Projetos</h1>
+            <h1 className="destaque">PROJETOS EM DESTAQUES</h1>
+            <div className="cont-projeto">
+                {projetosDestaques.map((projeto, index) => (
+                    <ProjetoItem key={index} {...projeto} />
+                ))}
+            </div>
+            <h1 className="projeto">Projetos</h1>
             <div className="cont-projeto">
                 {projetos.map((projeto, index) => (
                     <ProjetoItem key={index} {...projeto} />

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import HardSkill from "../../components/HardSkills";
 import SoftSkill from "../../components/SoftSkill";
 import Projetos from "../../components/Projetos";
-import Destaque from "../../components/ProjetoDestaque";
+
 import './estilo.css';
 
 
@@ -26,7 +26,7 @@ function Home() {
 
             <HardSkill />
             <SoftSkill/>
-            <Destaque/>
+          
             <Projetos/>
         </div>
 
