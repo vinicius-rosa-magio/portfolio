@@ -5,7 +5,7 @@
     grid-gap: 20px;
     color: black;
     margin: 30px 16px;  
-    margin-bottom: 50px;
+    margin-bottom: 200px;
 }
 
 h1{
@@ -16,6 +16,8 @@ h1{
 
 .destaque{
     color: #FABF3C;
+    margin-top: 200px;
+   
     
 }
 

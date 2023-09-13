@@ -22,6 +22,27 @@ function Projetos() {
                     { label: "Vercel", url: "https://filmes-five.vercel.app/",}
                 ],
         },
+        {
+            nome: "Portfólio",
+            imgSrc: require("../../assets/Projetos/logoc.png"),
+            resumo:
+                <p>
+                    "Em resumo, esta aplicação React oferece aos usuários a oportunidade de explorar
+                     os meus projetos de programação, acessar informações de contato, assistir a um 
+                     vídeo pessoal onde compartilho um pouco sobre minha trajetória, e ainda conta com 
+                     uma aba dedicada para facilitar o contato direto comigo. É uma plataforma completa 
+                     que proporciona uma visão abrangente das minhas habilidades, experiência e disponibilidade
+                     para colaborações futuras." {" "}
+                    <strong>Competência:</strong> ReactJs
+                </p>,
+            links:
+                [
+                    { label: "GitHub", url: "https://github.com/vinicius-rosa-magio/portfolio" },
+                    { label: "Vercel", url: "https://portfolio-vinicius-rosa-magio.vercel.app/",}
+                ],
+        },
+        
+        
         
     ]
     const projetos = [
