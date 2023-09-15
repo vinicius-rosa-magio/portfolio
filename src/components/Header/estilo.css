@@ -60,8 +60,6 @@ header a+a {
         justify-content: center;
         align-items: center;
         background-color: #FABF3C;
-        
-       
     }
 
     .menu{
@@ -71,6 +69,10 @@ header a+a {
 
     .menu a{
         color: #121212;
+    }
+
+    header a:hover{
+        color: #fff;
     }
     
 }
