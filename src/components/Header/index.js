@@ -7,7 +7,6 @@ function Header() {
             <img src={require('../../assets/Logo/logoc.png')} alt="logo do site" className="logo" />
             <h3>"Site em desenvolvimento"</h3>
             <div className="menu">
-
                 <Link  to="/"> Home </Link>
                 <Link  to="/sobre"> Sobre </Link>
                 <Link  to="/contato"> Contato </Link>

@@ -1,6 +1,7 @@
 .sobre {
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
 
 }
 
@@ -22,11 +23,11 @@
 .link {
     text-decoration: none;
     color: #167AE5;
-    transition:transform 0.7s;
+    transition: transform 0.7s;
 }
 
-.link:hover{
-    color:#FABF3C;
+.link:hover {
+    color: #FABF3C;
 }
 
 
@@ -44,3 +45,24 @@
     box-shadow: 1px 1px 5px #ccc;
 }
 
+@media (max-width: 768px) {
+
+    /* Estilos para telas menores, como smartphones */
+    .imagem {
+        display: none;
+    }
+
+    .paragrafo {
+        width: 100%;
+        margin-right: 18px;
+    }
+
+}
+
+@media (max-width: 384px) {
+
+    /* Estilos para telas menores, como smartphones */
+    .sobre {
+        margin-top: 16px;
+    }
+}

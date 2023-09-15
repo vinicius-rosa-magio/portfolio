@@ -1,12 +1,35 @@
-
-.contato-estilo{
+.contato-estilo {
     color: #fff;
-    margin-top: 400PX; 
+    margin-top: 400PX;
 }
-.p-estilo{
+
+.p-estilo {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     font-size: 20px;
+}
+
+@media (max-width: 768px) {
+
+    /* Estilos para telas menores, como smartphones */
+    .contato-estilo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+}
+
+
+@media (max-width: 384px) {
+
+    /* Estilos para telas menores, como smartphones */
+    .contato-estilo {
+        display: flex;
+        align-items: center;  
+        justify-content: center;
+    }
 }

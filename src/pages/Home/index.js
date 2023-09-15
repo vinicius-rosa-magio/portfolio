@@ -10,7 +10,7 @@ function Home() {
 
     return (
         <div className="sobre">
-            <h1 className="titulo">Sobre mim </h1>
+            
             <div className="conteudo">
                 <p className="paragrafo">
                     "Olá, meu nome é Vinicius Rosa Mágio e sou um desenvolvedor web e mobile apaixonado por tecnologia e inovação.

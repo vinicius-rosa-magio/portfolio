@@ -1,21 +1,20 @@
-
-header{
+header {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-    background-color: #121212; 
-    
+    background-color: #121212;
+
 }
 
-header a{
+header a {
     color: #fff;
     font-size: 20px;
-    text-decoration: none;   
+    text-decoration: none;
     transition: 0.3s;
 }
 
-header a:hover{
+header a:hover {
     color: #FABF3C;
 }
 
@@ -23,19 +22,47 @@ header a+a {
     margin-left: 16px;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo{
+.logo {
     width: 80px;
     margin: 20px;
     margin-left: 50px;
 }
-.menu{
+
+.menu {
     margin-right: 30px;
 }
 
 
+@media (max-width: 768px) {
+
+    /* Estilos para telas menores, como smartphones */
+    h3 {
+        display: none;
+    }
+}
+
+@media (max-width: 384px) {
+
+    /* Estilos para telas menores, como smartphones */
+    .logo {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 18px;
+    }
+
+    .menu{
+        font-size: 35px;
+    }
+    
+}
