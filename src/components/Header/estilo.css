@@ -26,6 +26,7 @@ header a+a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .logo {
@@ -58,11 +59,18 @@ header a+a {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 18px;
+        background-color: #FABF3C;
+        
+       
     }
 
     .menu{
         font-size: 35px;
+        
+    }
+
+    .menu a{
+        color: #121212;
     }
     
 }
