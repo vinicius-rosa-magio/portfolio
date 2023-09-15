@@ -25,3 +25,25 @@ h1{
     color: #91CCFF;
 }
 
+@media (max-width: 780px) {
+
+    /* Estilos para telas menores, como smartphones */
+    .destaque{
+        display: flex;
+    }
+
+    .projeto{
+        display: flex;
+    }
+}
+
+@media (max-width: 350px) {
+
+    /* Estilos para telas menores, como smartphones */
+    .destaque{
+        display: flex;
+        font-size: 26px;
+    }
+
+   
+}
