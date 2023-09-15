@@ -37,3 +37,25 @@
     margin-top: 40px;
     color: #91CCFF;
 }
+
+@media (max-width: 350px) {
+
+    /* Estilos para telas menores, como smartphones */
+    .hard{
+        display: flex;
+        margin-top: 38px;
+    }
+
+   
+}
+
+@media (max-width: 750px) {
+
+    /* Estilos para telas menores, como smartphones */
+    .hard{
+        display: flex;
+        margin-top: 38px;
+    }
+
+   
+}

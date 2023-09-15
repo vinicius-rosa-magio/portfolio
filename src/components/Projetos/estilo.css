@@ -42,7 +42,7 @@ h1{
     /* Estilos para telas menores, como smartphones */
     .destaque{
         display: flex;
-        font-size: 26px;
+        font-size: 20px;
     }
 
    
