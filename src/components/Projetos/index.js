@@ -3,15 +3,15 @@ import ProjetoItem from "../ProjetoItem/index";
 
 import "./estilo.css";
 
-function Projetos() {  
-    const projetosDestaques =[
+function Projetos() {
+    const projetosDestaques = [
 
         {
             nome: "PrimeFlix",
             imgSrc: require("../../assets/Projetos/flix.png"),
             resumo:
                 <p>
-                    Em resumo, esta aplicação React permite aos usuários visualizar uma lista de filmes em 
+                    Em resumo, esta aplicação React permite aos usuários visualizar uma lista de filmes em
                     exibição na página inicial e obter detalhes específicos de cada filme na página de detalhes.
                     Os usuários podem salvar filmes em sua lista pessoal e acessar trailers no YouTube. {" "}
                     <strong>Competência:</strong> ReactJs
@@ -19,7 +19,7 @@ function Projetos() {
             links:
                 [
                     { label: "GitHub", url: "https://github.com/vinicius-rosa-magio/Filmes" },
-                    { label: "Vercel", url: "https://filmes-five.vercel.app/",}
+                    { label: "Vercel", url: "https://filmes-five.vercel.app/", }
                 ],
         },
         {
@@ -27,21 +27,41 @@ function Projetos() {
             imgSrc: require("../../assets/Projetos/logoc.png"),
             resumo:
                 <p>
-                    Esta aplicação React permite que os usuários explorem meus projetos de programação, 
-                    acessem minhas informações de contato, assistam a um vídeo pessoal sobre minha trajetória 
-                    e entrem em contato comigo facilmente. É uma plataforma completa para conhecer 
-                    minhas habilidades, experiência e disponibilidade para colaborações futuras. {" "}
+                    Este site React permite que os usuários explorem meus projetos de programação,
+                    acessem minhas informações de contato, assistam a um vídeo sobre minha trajetória
+                    e entrem em contato comigo facilmente. É uma plataforma completa para conhecer minhas
+                    habilidades, experiência e disponibilidade para colaborações futuras. {" "}
                     <strong>Competência:</strong> ReactJs
                 </p>,
             links:
                 [
                     { label: "GitHub", url: "https://github.com/vinicius-rosa-magio/portfolio" },
-                    { label: "Vercel", url: "https://portfolio-vinicius-rosa-magio.vercel.app/",}
+                    { label: "Vercel", url: "https://portfolio-vinicius-rosa-magio.vercel.app/", }
                 ],
         },
-        
-        
-        
+
+        {
+            nome: "Lista de Tarefas ( Firibase) ",
+            imgSrc: require("../../assets/Projetos/firebaseLista.png"),
+            resumo:
+                <p>
+                    Em resumo, este código implementa um componente React para um site de gerenciamento
+                    de tarefas que permite que os usuários registrem, editem e concluam tarefas.
+                    Ele se integra ao Firebase para armazenar e recuperar dados de tarefas e lidar com a autenticação
+                    do usuário.  {" "}
+                    <strong>Competência:</strong> ReactJs
+                </p>,
+            links:
+                [
+                    { label: "GitHub", url: "https://github.com/vinicius-rosa-magio/ListadeTarefasFirebase" },
+                    { label: "Vercel", url: "https://lista-tarefas-firebase-tau.vercel.app/", }
+                ],
+        },
+
+
+
+
+
     ]
     const projetos = [
         {

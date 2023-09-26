@@ -71,7 +71,7 @@
     background-color: #167AE5;
     color: #fff;
     cursor: pointer;
-    margin-top: 80px;
+    margin-top: 120px;
     transition:transform 0.7s;
    
 }
@@ -96,9 +96,24 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 650px) {
     /* Estilos para telas menores, como smartphones */
     .projeto-info p{
         margin-bottom: 80px;
+        
+    }
+    .btnProjeto{
+        margin-top: 28px;
+    }
+
+
+}@media (max-width: 768px) {
+    /* Estilos para telas menores, como smartphones */
+    .projeto-info p{
+        margin-bottom: 80px;
+        
+    }
+    .btnProjeto{
+        margin-top: 80px;
     }
 }
