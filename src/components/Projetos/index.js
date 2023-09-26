@@ -41,7 +41,7 @@ function Projetos() {
         },
 
         {
-            nome: "Lista de Tarefas ( Firibase) ",
+            nome: "Lista de Tarefas ( Firebase) ",
             imgSrc: require("../../assets/Projetos/firebaseLista.png"),
             resumo:
                 <p>
